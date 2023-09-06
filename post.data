@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "string",
+  "description": "string",
+  "age": 5,
+  "type": "fox",
+  "department": "winter",
+  "image": "url"
+}

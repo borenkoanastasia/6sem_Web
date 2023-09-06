@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /api/v1/animals
+Document Length:        2 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.244 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2440000 bytes
+Total body sent:        2550000
+HTML transferred:       20000 bytes
+Requests per second:    1601.62 [#/sec] (mean)
+Time per request:       6.244 [ms] (mean)
+Time per request:       0.624 [ms] (mean, across all concurrent requests)
+Transfer rate:          381.64 [Kbytes/sec] received
+                        398.84 kb/s sent
+                        780.48 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       7
+Processing:     1    6   2.4      6      34
+Waiting:        1    6   2.3      6      34
+Total:          2    6   2.4      6      35
+
+Percentage of the requests served within a certain time (ms)
+  50%      6
+  66%      6
+  75%      7
+  80%      7
+  90%      8
+  95%      9
+  98%     13
+  99%     15
+ 100%     35 (longest request)
